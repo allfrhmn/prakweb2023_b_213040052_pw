@@ -3,7 +3,7 @@
 // Koneksi ke basis data
 function koneksi() 
 {
-    $conn = mysqli_connect('localhost', 'root', '', 'prakweb2023b_213040052') or die('Koneksi Gagal!');
+    $conn = mysqli_connect('localhost', 'root', '', 'prakweb2023_b_213040052') or die('Koneksi Gagal!');
 
     return $conn;
 }

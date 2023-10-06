@@ -40,7 +40,7 @@ $buku = query("SELECT id_buku, gambar, judul, pengarang, penerbit, tahun, katego
                     <?php foreach ($buku as $bk) : ?>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="card mb-3" style="max-width: 300px; padding: 10px;"> 
-                                <img src="img/<?= $bk['gambar']; ?>" class="card-img-top mx-auto d-block" style="max-width: 200px; height: 200px; object-fit: scale-down;">
+                                <img src="img/<?= $bk['gambar']; ?>" class="card-img-top mx-auto d-block" style="height: 300px; object-fit: cover;">
                                 <div class="card-body">
                                     <h5 class="card-title"><?= $bk['judul']; ?></h5>
                                     <p class="card-text">
